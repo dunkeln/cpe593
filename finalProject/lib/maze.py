@@ -2,7 +2,7 @@ import pygame
 import random
 # TODO: 3 obstacle types: user-placed, stationary and in-motion
 
-def randomize_obstacles(x: int, y: int, num_obstacles):
+def randomize_obstacles(x: int, y: int, num_obstacles, grid_size: int=20):
     """
     Generate random obstacle coordinates
     
@@ -19,7 +19,6 @@ def randomize_obstacles(x: int, y: int, num_obstacles):
         num_obstacles = (x * y) // (50 * 50)
     
     obstacles = []
-    grid_size = 10
     
     for _ in range(num_obstacles):
         # Generate coordinates aligned to a grid

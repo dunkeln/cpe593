@@ -8,7 +8,11 @@ def main():
     clock = pygame.time.Clock()
     running = True
 
-    obstacles = list(maze.randomize_obstacles(*screen.get_size(), 100))
+    # INFO: global settings
+    FPS = 20
+    GRID_RES = 20
+
+    obstacles = list(maze.randomize_obstacles(*screen.get_size(), 100, grid_size=GRID_RES))
     print(f"generated {len(obstacles)} obstacles")
 
     while running:
@@ -23,8 +27,7 @@ def main():
 
         # flip() the display to put your work on screen
         pygame.display.flip()
-        # INFO: we at 20 FPS
-        clock.tick(20)
+        clock.tick(FPS)
 
     pygame.quit()
 
