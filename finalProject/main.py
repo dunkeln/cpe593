@@ -1,6 +1,13 @@
 import pygame
 from lib import maze
 
+# INFO: Global Settings
+# right now grid size is 720 * 720 = 518_400 nodes
+#
+# TODO: do kruskal's implementation of a maze solver
+# TODO: do prims's implementation of a maze solver
+# TODO: do organic maze solver
+
 def main():
     pygame.init()
     X, Y = 720, 720
