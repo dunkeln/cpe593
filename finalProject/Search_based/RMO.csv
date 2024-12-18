@@ -1,0 +1,13 @@
+Algorithm, ,Score,SuccessPathLenth,Time Per Planning(s),Arrival Rate
+Bi-directional A*,mean,0.00263,380.884,0.057,1.0
+Bi-directional A*,std.,0.0,0.0,0.0,1.0
+Breadth First Search,mean,0.00263,379.616,0.388,1.0
+Breadth First Search,std.,0.0,0.0,0.0,1.0
+BestFirst,mean,0.00255,391.91,0.003,1.0
+BestFirst,std.,0.0,0.0,0.0,1.0
+A*,mean,0.00263,379.551,0.109,1.0
+A*,std.,0.0,0.0,0.0,1.0
+Dijkstra,mean,0.00267,374.691,0.641,1.0
+Dijkstra,std.,0.0,0.0,0.0,1.0
+Minimum Spanning Tree,mean,0.00267,374.691,0.668,1.0
+Minimum Spanning Tree,std.,0.0,0.0,0.0,1.0
