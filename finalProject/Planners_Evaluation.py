@@ -19,7 +19,7 @@ if __name__ == '__main__':
     os.mkdir('Results')
     os.mkdir('Results/CMO')
     os.mkdir('Results/RMO')
-    eval_times = 1
+    eval_times = 20
     Algo_Name = ['A*', 'Dijkstra', 'BestFirst', 'Bi-directional A*', 'Breadth First Search', 'Minimum Spanning Tree']
 
     for Obs_Type in ['CMO', 'RMO']:
